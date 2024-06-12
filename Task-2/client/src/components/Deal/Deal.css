@@ -1,0 +1,90 @@
+/* src/components/Deal/Deal.css */
+.main-deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-height:60vh;
+    width:70%;
+    margin-left:17%;
+    margin-top:50px;
+  }
+  
+  .left-deal {
+    flex: 1;
+    padding: 20px;
+  }
+  .left-deal button{
+    margin-left:10%;
+  }
+  
+  .right-deal {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .right-deal img {
+    max-width: 100%;
+    height: 40vh;
+  }
+  
+  .buttonshop {
+    background-color: #000;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+    width:35%;
+
+  }
+  
+  button span {
+    margin-left: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .main-deal {
+      flex-direction: column;
+      text-align: center;
+     
+    }
+  
+    .right-deal {
+      text-align: center;
+    }
+    .right-deal img{
+      height:180px;
+    }
+    .left-deal button{
+      margin-left:20%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-deal {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .left-deal,
+    .right-deal {
+      padding: 10px;
+    }
+  
+    .buttonshop {
+      width: 50%;
+      margin-left:24%;
+      justify-content: center;
+    }
+  }
+  

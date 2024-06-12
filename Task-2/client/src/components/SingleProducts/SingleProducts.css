@@ -1,0 +1,65 @@
+/* SingleProducts.css */
+
+/* Styles for product details container */
+.product-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  /* Add other styles as needed */
+}
+
+.product-details-container img {
+  max-width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-details-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Styles for buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height:40px;
+  font-size:20px;
+  border-radius:10px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .product-details-container {
+    padding: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons button {
+    margin: 10px 0;
+  }
+}
